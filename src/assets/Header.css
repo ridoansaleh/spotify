@@ -1,0 +1,63 @@
+header {
+    position: absolute;
+    top: 52px;
+    width: 75%;
+    height: 92vh;
+    padding: 0 12.5%;
+    /* background-color: powderblue; */
+}
+
+.slick-slide {
+    height: 500px;
+}
+
+.slick-slide-content {
+    vertical-align: super;
+}
+
+h3.slick-item-title {
+    font-size: 4.5em;
+    color: white;
+    text-align: center;
+}
+
+sup {
+    top: -.5em;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+a.free-btn, a.premium-btn {
+    height: 80px;
+    padding: 12px 50px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a.free-btn {
+    background-color: #1db954;
+    border: 2px solid #1db954;
+    margin-right: 20px;
+}
+
+a.free-btn:hover {
+    background-color: #1ed760;
+}
+
+a.premium-btn {
+    border: 2px solid white;
+}
+
+a.premium-btn:hover {
+    background-color: white;
+    color: black;
+}

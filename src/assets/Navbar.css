@@ -1,0 +1,41 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    height: 32px;
+    padding: 10px 10%;
+    margin: 0;
+    background: rgba(10, 10, 10, 0.5);
+    color: white;
+    font-weight: bold;
+    z-index: 1030;
+}
+
+.brand-name {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.brand-name span {
+    vertical-align: super;
+    margin-left: 5px;
+    font-size: 1.3em;
+}
+
+ul.nav-links {
+    width: 42%;
+    padding: 7.5px;
+    float: right;
+    margin: 0;
+}
+
+ul.nav-links li {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+
+.nav-item-separator {
+    border: 1px solid white;
+}
