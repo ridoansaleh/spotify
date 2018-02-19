@@ -24,10 +24,15 @@ nav {
 }
 
 ul.nav-links {
-    width: 42%;
-    padding: 7.5px;
+    width: 80%;
+    padding: 7.5px 0;
     float: right;
     margin: 0;
+    text-align: right;
+}
+
+ul.nav-links .nav-desktop-item {
+    display: inline;
 }
 
 ul.nav-links li {
@@ -38,4 +43,23 @@ ul.nav-links li {
 
 .nav-item-separator {
     border: 1px solid white;
+}
+
+ul.nav-links .humburger-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .brand-name {
+        width: 60%; 
+    }
+    ul.nav-links {
+        width: 40%; 
+    }
+    ul.nav-links .humburger-icon {
+        display: inline;
+    }
+    ul.nav-links .nav-desktop-item {
+        display: none;
+    }
 }
