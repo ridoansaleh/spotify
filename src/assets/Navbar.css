@@ -41,6 +41,14 @@ ul.nav-links li {
     margin: 15px;
 }
 
+ul.nav-links .nav-item {
+    cursor: pointer;
+}
+
+ul.nav-links .nav-item:hover {
+    color: #1db954;
+}
+
 ul.nav-links .nav-item-separator {
     border: 1px solid white;
 }
