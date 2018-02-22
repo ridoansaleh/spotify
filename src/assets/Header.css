@@ -1,8 +1,8 @@
 header {
-    position: absolute;
+    position: relative;
     top: 52px;
     width: 75%;
-    height: 92vh;
+    height: 100vh;
     padding: 0 12.5%;
 }
 

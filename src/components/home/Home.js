@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Header from './Header';
-import WhatsNew from './WhatsNew';
+import Footer from './Footer';
 
 class Home extends Component {
   render() {
@@ -9,7 +9,7 @@ class Home extends Component {
         <div>
             <Navbar/>
             <Header/>
-            <WhatsNew/>
+            <Footer/>
         </div>
     );
   }
