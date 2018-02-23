@@ -7,9 +7,8 @@ footer {
 
 footer .content {
     width: 80%;
-    height: auto;
+    height: 80%;
     margin: 0 10%;
-    background-color: aliceblue;
 }
 
 footer .content .left-menu {
@@ -63,4 +62,59 @@ footer .content .right-menu {
     display: inline;
     margin: 10px;
     border-radius: 50%;
+}
+
+footer .bottom {
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer .bottom .left-bottom {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.bottom .left-bottom ul {
+    padding: 0;
+}
+
+.bottom .left-bottom li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    color: #919496;
+    font-size: 12.5px;
+    cursor: pointer;
+}
+
+.bottom .left-bottom li:hover {
+    color: #1db954;
+}
+
+.bottom .right-bottom {
+    width: 50%;
+    height: auto;
+    float: right;
+    font-size: 12.5px;
+    color: #919496;
+    text-align: right;
+}
+
+.bottom .right-bottom ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.bottom .right-bottom li {
+    list-style: none;
+    margin: 6px;
+}
+
+.right-bottom li span {
+    vertical-align: super;
+    margin-right: 5px;
 }

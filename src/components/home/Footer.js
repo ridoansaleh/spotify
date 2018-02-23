@@ -5,6 +5,7 @@ import fabInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
 import fabTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import fabFacebook from '@fortawesome/fontawesome-free-brands/faFacebook';
 import '../../assets/Footer.css';
+import flag from '../../assets/images/indonesia.png';
 
 fontawesome.library.add(fabSpotify)
 fontawesome.library.add(fabInstagram)
@@ -54,10 +55,18 @@ class Footer extends Component {
                 </div>
                 <div className="bottom">
                     <div className="left-bottom">
-
+                        <ul>
+                            <li>Hukum</li>
+                            <li>Privasi</li>
+                            <li>Cookies</li>
+                            <li>Tentang Iklan</li>
+                        </ul>
                     </div>
                     <div className="right-bottom">
-
+                        <ul>
+                            <li><span>Indonesia</span> <img src={flag} width="25px" height="18px"/></li>
+                            <li>©2018 Spotify AB</li>
+                        </ul>
                     </div>
                 </div>
             </footer>
