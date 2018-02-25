@@ -54,6 +54,9 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="bottom">
+                    <div className="country">
+                        <span>Indonesia</span> <img src={flag} width="25px" height="18px"/>
+                    </div>
                     <div className="left-bottom">
                         <ul>
                             <li>Hukum</li>
@@ -62,12 +65,7 @@ class Footer extends Component {
                             <li>Tentang Iklan</li>
                         </ul>
                     </div>
-                    <div className="right-bottom">
-                        <ul>
-                            <li><span>Indonesia</span> <img src={flag} width="25px" height="18px"/></li>
-                            <li>©2018 Spotify AB</li>
-                        </ul>
-                    </div>
+                    <div className="right-bottom">©2018 Spotify AB</div>
                 </div>
             </footer>
         );
