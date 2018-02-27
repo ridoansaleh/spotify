@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../assets/Navbar.css';
+import '../../assets/css/Navbar.css';
 import fontawesome from '@fortawesome/fontawesome';
 import fabSpotify from '@fortawesome/fontawesome-free-brands/faSpotify';
 import fabBars from '@fortawesome/fontawesome-free-solid/faBars';

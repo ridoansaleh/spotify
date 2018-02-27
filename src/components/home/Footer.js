@@ -4,7 +4,7 @@ import fabSpotify from '@fortawesome/fontawesome-free-brands/faSpotify';
 import fabInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
 import fabTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import fabFacebook from '@fortawesome/fontawesome-free-brands/faFacebook';
-import '../../assets/Footer.css';
+import '../../assets/css/Footer.css';
 import flag from '../../assets/images/indonesia.png';
 
 fontawesome.library.add(fabSpotify)
@@ -55,7 +55,7 @@ class Footer extends Component {
                 </div>
                 <div className="bottom">
                     <div className="country">
-                        <span>Indonesia</span> <img src={flag} width="25px" height="18px"/>
+                        <span>Indonesia</span> <img src={flag} width="25px" height="18px" alt="Indonesian Flag"/>
                     </div>
                     <div className="left-bottom">
                         <ul>
