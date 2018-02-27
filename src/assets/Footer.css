@@ -150,3 +150,39 @@ footer .bottom .left-bottom {
         margin: 120px 10px 10px 10px;
     }
 }
+
+@media only screen and (max-width: 699px) {
+    footer {
+        height: 700px;
+    }
+
+    .perusahaan, .komunitas, .tautan-berguna {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    footer .content, footer .bottom {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    footer .country span, .bottom .left-bottom li, .bottom .right-bottom {
+        font-size: 10px;
+    }
+
+    .bottom .left-bottom li {
+        margin-right: 10px;
+    }
+
+    footer .bottom .left-bottom {
+        width: 65%;
+    }
+
+    footer .bottom .right-bottom {
+        width: 35%;
+        height: 18px;
+        vertical-align: super;
+        padding: 0;
+        margin: 16px 0;
+    }
+}
