@@ -2,8 +2,8 @@ header {
     position: relative;
     top: 52px;
     width: 75%;
-    height: 100vh;
-    padding: 0 12.5%;
+    height: 70vh;
+    padding: 15vh 12.5%;
 }
 
 .slick-slide {
