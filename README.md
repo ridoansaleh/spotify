@@ -4,4 +4,6 @@
 
 - Install the dependencies | `npm install` 
 
-- Start the spotify app | `npm start`
+- Run the spotify app | `npm start`
+
+*You can use yarn if it's your choice
