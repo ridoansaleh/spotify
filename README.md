@@ -1,9 +1,19 @@
+# Spotify
+
 ## Installation 
 
-- Clone or download the repository | `git clone <url-repository>`
+- Clone or download the repository by typing `git clone <url-repository>` in your terminal
+
+- Then run install using `npm` or `yarn`
+
+### npm
 
 - Install the dependencies | `npm install` 
 
 - Run the spotify app | `npm start`
 
-*You can use yarn if it's your choice
+### yarn
+
+- Install the dependencies | `yarn` 
+
+- Run the spotify app | `yarn start`
